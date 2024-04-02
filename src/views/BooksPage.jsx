@@ -12,7 +12,7 @@ function BooksPage() {
   const dispatch = useDispatch();
   const books = useSelector(selectBooks).books;
   const bookStatus = useSelector(selectBooks).status;
-  const pageTitle = "📖 Book List with Router, Redux & Firebase";
+  const pageTitle = "📖 Book List with Router, Redux & Firebase by Linh";
 
   useEffect(() => {
     if (bookStatus == 'idle') {
